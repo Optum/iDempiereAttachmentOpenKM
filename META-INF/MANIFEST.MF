@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OpenKM DMS
+Bundle-SymbolicName: org.optum.erp.dms;singleton:=true
+Bundle-Version: 3.1.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="7.1.0",
+ org.adempiere.plugin.utils;bundle-version="7.1.0",
+ org.eclipse.osgi.services;bundle-version="3.7.100"
+Bundle-ClassPath: lib/okhttp-3.9.0.jar,
+ lib/okio-1.13.0.jar,
+ .,
+ lib/jakarta.xml.bind-api-2.3.2.jar
+Service-Component: OSGI-INF/*.xml
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Bundle-ActivationPolicy: lazy
+Import-Package: com.fasterxml.jackson.annotation;version="2.6.2",
+ com.fasterxml.jackson.core;version="2.6.2",
+ com.fasterxml.jackson.databind
