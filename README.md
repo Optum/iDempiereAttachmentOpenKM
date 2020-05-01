@@ -1,11 +1,19 @@
-# README #
+<h4 align="center">
+		IDempiere attachment provider plugin for OpenKM
+    <br>
+    <br>
 
-Pre-requisiites :
+</h4>
+
+<br>
+
+### How to Install
+
+## Pre-requisiites :
 - iDempiere 7.1
+- OpenKM
 
-OpenKM Plugin :
-
-Follow below steps to setup OpenKM Plugin :
+## Installation Steps :
 
 - Install OpenKM (Version 6.3.0)
 - Check whether its accessible on localhost:8082/OpenKM
@@ -13,3 +21,14 @@ Follow below steps to setup OpenKM Plugin :
 - Select DMS plugin in server.product
 - Import Storage Provider 2Pack in client
 - restart the server
+
+## Sample Screen Shots
+
+### Grid View
+![OpenKM Login](./images/OpenKMLogin.PNG)
+
+### Toolbar
+![File Upload](./images/FileUpload.PNG)
+
+### Attachment Popup
+![Provider Configuration](./images/ProviderConfiguration.PNG)
