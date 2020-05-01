@@ -1,10 +1,10 @@
-﻿# Contributing to *IDempiere plugin for OpenKM*
+﻿# Contributing to *idempiere plugin for OpenKM*
 
 ## Introduction
 
-### Welcome to project IDempiere plugin for OpenKM!
+### Welcome to project idempiere plugin for OpenKM!
 
->Thank you for considering a contribution to *IDempiere plugin for OpenKM*. Your support of this project will assist the broader open source community as we strive to provide tools and information leading to better license compliance, acknowledgment of intellectual property rights, and reduction of vulnerabilities in our code.
+>Thank you for considering a contribution to *idempiere plugin for OpenKM*. Your support of this project will assist the broader open source community as we strive to provide tools and information leading to better license compliance, acknowledgment of intellectual property rights, and reduction of vulnerabilities in our code.
 
 # Contribution Guidelines
 
